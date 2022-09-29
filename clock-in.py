@@ -8,7 +8,7 @@ import re
 import datetime
 import time
 import sys
-import ddddocr
+# import ddddocr
 
 
 class ClockIn(object):
@@ -34,7 +34,7 @@ class ClockIn(object):
         self.username = username
         self.password = password
         self.sess = requests.Session()
-        self.ocr = ddddocr.DdddOcr()
+#         self.ocr = ddddocr.DdddOcr()
 
     def login(self):
         """Login to ZJU platform"""
